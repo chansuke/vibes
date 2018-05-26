@@ -2,7 +2,7 @@ const TokenType = {
   String: 'string',
   Integer: 'integer',
   Identifier: 'identifier'
-}
+};
 
 class Token {
   constructor(type, value, line, column) {

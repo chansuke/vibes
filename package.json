@@ -10,5 +10,8 @@
     "compiler"
   ],
   "author": "chansuke",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "yarn": "^1.7.0"
+  }
 }

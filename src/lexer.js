@@ -3,7 +3,5 @@ class Lexer {
     this.token = token;
   }
 
-  nextToken() {
-
-  }
+  nextToken() {}
 }
