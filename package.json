@@ -12,7 +12,9 @@
   "author": "chansuke",
   "license": "MIT",
   "dependencies": {
+    "@types/jest": "^22.2.3",
     "awesome-typescript-loader": "^5.0.0",
+    "jest": "^23.0.1",
     "source-map-loader": "^0.2.3",
     "yarn": "^1.7.0"
   },
