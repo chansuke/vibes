@@ -5,10 +5,17 @@ const TokenType = {
 }
 
 class Token {
-  constructor(type, value, line, column) {
+  type: string
+  value: string
+  line: number
+  column: string
+
+  constructor(type: string, value: string, line: number, column: string) {
     this.type = type
     this.value = value
     this.line = line
     this.column = column
   }
 }
+
+export default Token
